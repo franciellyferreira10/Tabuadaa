@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: #f7e1ff;
+    color: rgb(255, 113, 203);
+    font-family: Apple Chancery, cursive;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: #ff76ef;
+    border-spacing: 30px;
+    border: double;
+    border-color: #cd87cd;
+    font-size: 46px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #faedff;
+    font-size: 30px;
+    border-spacing: 30px;
+    border: double;
+    border-color: rgb(127, 100, 119);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 212, 251);
+    padding: 20px;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 40px;
+}
+
+main {
+
+    padding: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode header {
+
+    color: rgb(53, 53, 70);
+    background-color: rgb(46, 28, 52);
+}
+
+.dark-mode h1 {
+    color: rgb(255, 255, 255);
+    border-spacing: 30px;
+    border: double;
+    border-color: #7f7f99;
+}
+
+.dark-mode button {
+
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode h2 {
+
+    background-color: black;
+    color: white;
+}
+
+.dark-mode body {
+
+    color: white;
+}
+
+
+
+
+
